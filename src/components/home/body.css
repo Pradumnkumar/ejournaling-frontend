@@ -1,0 +1,39 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#headerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#loginBtn {
+    height: 50px;
+
+}
+
+#signInForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forget-password {
+    color: rgb(70, 70, 220); /* Sets the text color to blue */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    font-weight: bold;
+  }
+
+  .forget-password:hover {
+    text-decoration: underline; /* Optionally adds an underline on hover */
+  }
